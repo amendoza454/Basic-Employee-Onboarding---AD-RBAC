@@ -1,0 +1,16 @@
+NMG-0047-Resolution.txt
+ Copy
+1.Jane's user identity is in the Operations OU
+2.Cooper is in the Operations OU instead of the HR OU, she is HR Payroll Specialist not a Operations Coordinator
+3.Jane Cooper is also a member of Operations-Users group instead of HR-Users group
+4.Since Jane Cooper was placed in the wrong OU and Security Group she is getting access to incorrect systems/resources and different policies, drives, and restrictions.
+5.She is now placed in the correct OU and Security Group; HR OU and HR-Users
+
+Ticket Number: NMG-0047
+Affected User: Jane Cooper (jcooper@NMG.com)
+Issue Reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates
+Root Cause: Incorrect OU and Security Group; was in Operations OU and Operations-Users unable to access resources and policies
+Fix Applies: Correct OU and Security Group; now in HR OU and HR-Users for access to correct resources and policies
+Verification: Everything has been documented by reviewing OU and security group members list with screenshots
+Date Resolved: 10/19/2026
+Resolved by: Adrian Mendoza
