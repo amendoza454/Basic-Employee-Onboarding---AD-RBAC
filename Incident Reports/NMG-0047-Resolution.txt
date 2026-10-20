@@ -1,5 +1,5 @@
 NMG-0047-Resolution.txt
- Copy
+
 1.Jane's user identity is in the Operations OU
 2.Cooper is in the Operations OU instead of the HR OU, she is HR Payroll Specialist not a Operations Coordinator
 3.Jane Cooper is also a member of Operations-Users group instead of HR-Users group
