@@ -1,15 +1,15 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Project Overview
-* This project simulates an IT admin environment for Northstar Medical Group (NMG), a fictional healthcare organization. The objective was to establish a structure Active Directory environment, implement a department based user management with Organizational Units (OUs) and corresponding Security Groups, and finally troubleshoot an employee access issue using Role-Based Access Control (RBAC) principles. The motive behind this project is to create a practical scenario where I would be tackling a common issue faced by IT Support and Identity and Access Management (IAM) professionals in a real-world workplace. 
+* Built a simulated Active Directory environment for Northstar Medical Group (NMG), a fictional healthcare organization, to practice employee onboarding, identity management, and access troubleshooting. 
 
-* The lab was completed using Windows Server 2019, Active Directory Domain Services (AD DS), and Oracle VirtualBox.
+* The project demonstrates hands-on experience with Windows Server 2019, Active Directory Domain Services (AD DS), and Role-Based Access Control (RBAC) principles.
 
 ## Problem Statement
-* Northstar Medical Group experienced management challenges resulting from poorly structured Active Directory administration by its previous Managed Service Provider (MSP). The environment lacked consistent organizational structures, standardized security group assignments, and efficient employee onboarding procedures. Manual user deployment increased the likelihood of employees being assigned to incorrect departments or receiving inappropriate access permissions. In a healthcare environment, these weaknesses could create unauthorized access risks involving sensitive patient information and potentially affect HIPAA compliance.
+* NMG's fictional IT environment lacked a standardized Active Directory structure due to poor administration by a previous Managed Service Provider (MSP). Inconsistent user provisioning and security group assignments increased the risk of incorrect employee access and potential HIPAA compliance concerns.
 
 ## Solution Overview
-* In order to solve this problem first I built a new Active Directory domain, NMG.com, using Windows Server 2019 and configured NMG-DC01 as the domain controller. I created four Organizational Units (OUs) and categorized them as; Finance, HR, IT, and Operations as seen in screenshots. Each these units/departments received a corresponding security group to lay a foundation for simple RBAC model. I then added 15 employee accounts to the OUs and organized them to their respective security groups. After this was completed I worked on a simulated high-priority ticket involving an HR employee who was incorrectly assigned to the Operations OU and Security Group. By correcting the employee's OU placement and group membership, I demonstrated user account administration, identity troubleshooting, and access management principles. 
+* I built the NMG.com Active Directory domain using Windows Server 2019, with NMG-DC01 serving as the domain controller. To organize employee accounts, I created 4 departmental OUs (Finance, HR, IT, and Operations) and 4 corresponding security groups to support Role-Based Access Control (RBAC). I then provisioned 15 employee accounts, assigning each to the appropriate department and security group. To put these skills into practice, I resolved a simulated high-priority support ticket (NMG-0047) involving an employee assigned to the wrong department and security group. This demonstrated my ability to identify and correct common Active Directory account management issues.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
