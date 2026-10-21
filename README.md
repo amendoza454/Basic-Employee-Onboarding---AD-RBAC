@@ -30,5 +30,5 @@
 ## Key Accomplishments
 * Built NMG.com domain from scratch
 * Created 4 OUs, 4 security groups, and 15 employee accounts
-* Resolved an employee access Ticket by correcting OU placement and security group membership
+* Resolved a mock ticket by correcting OU placement and security group membership
 
