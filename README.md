@@ -1,9 +1,7 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Project Overview
-* Built a simulated Active Directory environment for Northstar Medical Group (NMG), a fictional healthcare organization, to practice employee onboarding, identity management, and access troubleshooting. 
-
-* The project demonstrates hands-on experience with Windows Server 2019, Active Directory Domain Services (AD DS), and Role-Based Access Control (RBAC) principles.
+* Built a simulated Active Directory environment for Northstar Medical Group (NMG), a fictional healthcare organization, to practice employee onboarding, identity management, and access troubleshooting. The project demonstrates hands-on experience with Windows Server 2019, Active Directory Domain Services (AD DS), and Role-Based Access Control (RBAC) principles.
 
 ## Problem Statement
 * NMG's fictional IT environment lacked a standardized Active Directory structure due to poor administration by a previous Managed Service Provider (MSP). Inconsistent user provisioning and security group assignments increased the risk of incorrect employee access and potential HIPAA compliance concerns.
