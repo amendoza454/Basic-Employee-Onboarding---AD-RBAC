@@ -10,7 +10,7 @@
 * I built the NMG.com Active Directory domain using Windows Server 2019, with NMG-DC01 serving as the domain controller. To organize employee accounts, I created 4 departmental OUs (Finance, HR, IT, and Operations) and 4 corresponding security groups to support Role-Based Access Control (RBAC). I then provisioned 15 employee accounts, assigning each to the appropriate department and security group. To put these skills into practice, I resolved a simulated high-priority support ticket (NMG-0047) involving an employee assigned to the wrong department and security group. This demonstrated my ability to identify and correct common Active Directory account management issues.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+*https://www.loom.com/share/fbe607f2b96f4037b5bf552d06fefba5
 
 ## Tools Used
 * Windows Server 2019 - Server Operating System
